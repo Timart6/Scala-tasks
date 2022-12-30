@@ -1,1 +1,7 @@
+import scala.io.StdIn.readLine
+
+@main def skillonomy(): Unit = {
+  val sim = new OfficeSimulation(12)
+  sim.start()
+}
 
